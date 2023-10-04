@@ -6,4 +6,5 @@
 
 ## Data Archiecture 
 
-<img width="712" alt="image" src="https://github.com/salmah52/UberDataAnalytics/assets/44398948/37373178-5471-4772-8b90-ef42724375ce">
+<img width="718" alt="image" src="https://github.com/salmah52/UberDataAnalytics/assets/44398948/88879e63-bc4e-4843-bcef-641ef84dfb49">
+
