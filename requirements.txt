@@ -6,3 +6,26 @@ source customer_churn_youtube_venv/bin/activate
 sudo pip install apache-airflow
 pip install apache-airflow-providers-amazon
 airflow standalone
+
+
+CREATE TABLE IF NOT EXISTS uberdrive(
+  vendorid bigint, 
+  tpep_pickup_datetime VARCHAR(255), 
+  tpep_dropoff_datetime VARCHAR(255), 
+  passenger_count bigint, 
+  trip_distance DOUBLE PRECISION, 
+  pickup_longitude DOUBLE PRECISION, 
+  pickup_latitude DOUBLE PRECISION, 
+  ratecodeid bigint, 
+  store_and_fwd_flag VARCHAR(1), 
+  dropoff_longitude DOUBLE PRECISION, 
+  dropoff_latitude DOUBLE PRECISION, 
+  payment_type bigint, 
+  fare_amount DOUBLE PRECISION, 
+  extra DOUBLE PRECISION, 
+  mta_tax DOUBLE PRECISION, 
+  tip_amount DOUBLE PRECISION, 
+  tolls_amount DOUBLE PRECISION, 
+  improvement_surcharge DOUBLE PRECISION, 
+  total_amount DOUBLE PRECISION
+)
