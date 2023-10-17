@@ -44,14 +44,6 @@ Power BI Visualization
 You can access the Power BI visualization of the Uber ride data obtained in this case study at the following link: Link to Power BI Visualization
 
 
-Happy Enginering 
-
-
-
-
-
-
-
-Regenerate
+*Happy data engineering!*
 
 
